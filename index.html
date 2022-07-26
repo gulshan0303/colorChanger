@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Changer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container" id="bick">
+        <nav>
+            <img class="logo" src="./img/logo.png" alt="">
+            <a href="#" class="btn">Test Drive</a>
+        </nav>
+        <div class="content">
+            <h2>The BMW</h2>
+            <h1>G 310R</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi et, repellat odio dignissimos harum optio ducimus aperiam facere, voluptas minima reiciendis molestias enim magni sapiente rem obcaecati consectetur! Tenetur aspernatur saepe rem dicta aliquid quaerat illum ipsam modi.</p>
+            <h3>Choose your color</h3>
+            <div class="color-select">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let redbtn = document.getElementById("red");
+        let bluebtn = document.getElementById("blue");
+        let blackbtn = document.getElementById("black");
+        let bickkbtn = document.getElementById("bick");
+
+        redbtn.onclick = function(){
+           bick.style.backgroundImage = "url(img/BMW1.PNG)";
+        }
+
+        bluebtn.onclick = function(){
+           bick.style.backgroundImage = "url(img/BMW2.PNG)";
+        }
+        blackbtn.onclick = function(){
+           bick.style.backgroundImage = "url(img/BMW3.PNG)";
+        }
+    </script>
+</body>
+</html>
